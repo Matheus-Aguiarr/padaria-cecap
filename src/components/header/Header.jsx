@@ -1,5 +1,5 @@
 import logo from "../../assets/panificadora-cecap-logo.png";
-import "./header.css";
+import "./Header.css";
 import { IoMenu } from "react-icons/io5";
 import { useState } from "react";
 
