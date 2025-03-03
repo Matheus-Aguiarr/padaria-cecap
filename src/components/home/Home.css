@@ -1,0 +1,51 @@
+.home-section {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 50px;
+  width: 80%;
+}
+
+.home-section p {
+  text-align: justify;
+  width: 100%;
+}
+
+.home-section h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.home-section img {
+  /* border-bottom: 3px dashed var(--main-color);
+  border-right: 3px dashed var(--main-color); */
+  box-shadow: -1px 1px 15px 2px var(--color-01);
+}
+
+.whatsapp-link:hover {
+  color: var(--color-02);
+}
+
+@media (min-width: 768px) {
+  .home-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+  }
+  .texts {
+    width: 40%;
+    h1 {
+      font-size: 3.5rem;
+      width: 100%;
+      text-align: left;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+  .home-section img {
+    width: 40%;
+  }
+}

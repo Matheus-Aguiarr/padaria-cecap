@@ -1,10 +1,14 @@
 import "./index.css";
 import "./App.css";
+import Header from "./components/header/header";
+import Home from "./components/home/Home";
 
 function App() {
   return (
     <>
-      <h1>Hello World.</h1>
+      <Header />
+      {/* Home comeca aqui */}
+      <Home />
     </>
   );
 }

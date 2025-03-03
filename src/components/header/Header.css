@@ -1,0 +1,118 @@
+@media (max-width: 768px) {
+  .header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .nav-list {
+    margin-bottom: 25px;
+  }
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row nowrap;
+  align-items: center;
+  background-color: var(--white);
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; */
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+.nav {
+  /* Versao maior do nav*/
+  display: none;
+}
+
+.nav.open {
+  display: block;
+  position: fixed;
+  top: 80px;
+  box-shadow: 0px 12px 13px 0px rgba(0, 0, 0, 0.27);
+  width: 100vw;
+  background: var(--white);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 40px;
+  font-size: 1.2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--color-01);
+  transition: 0.5s;
+}
+.nav-item a:hover {
+  color: var(--color-02);
+  letter-spacing: 0.3px;
+}
+
+.burger-menu {
+  display: block;
+  background-color: var(--color-01);
+  position: fixed;
+  border: none;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  color: var(--white);
+  z-index: 99;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.burger-menu:hover {
+  transform: translateX(-5px);
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: block;
+    position: static;
+    box-shadow: none;
+    width: auto;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 0;
+    margin-bottom: 0px;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+  .header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--white);
+  }
+
+  .header-container {
+    display: block;
+  }
+  .logo {
+    width: 80px;
+  }
+}
