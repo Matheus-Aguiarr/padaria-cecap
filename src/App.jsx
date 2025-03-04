@@ -27,12 +27,8 @@ function App() {
           <Itens nome="Cafezin fresquin" imagem={imgHome} />
         </div>
 
-        <div className="menu-way">
-          <a
-            onClick={onSeeMenuClick}
-            href=""
-            className="more bg-[#126091] text-white rounded-lg text-center hover:bg-white hover:text-[#126091] hover:border-[#126091] border-2 border-[#126091] duration-500 hover:shadow-lg shadow-[#126091] px-4 py-2 text-[20px]"
-          >
+        <div className="menu-way" onClick={onSeeMenuClick}>
+          <a className="more bg-[#126091] text-white rounded-lg text-center hover:bg-white hover:text-[#126091] hover:border-[#126091] border-2 border-[#126091] duration-500 hover:shadow-lg shadow-[#126091] px-4 py-2 text-[20px]">
             Confira o <span className="">Cardapio Completo</span>
           </a>
         </div>
