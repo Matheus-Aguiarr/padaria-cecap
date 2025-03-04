@@ -1,4 +1,4 @@
-import "./itens.css";
+import "./Itens.css";
 
 const Itens = ({ imagem, nome }) => {
   return (
