@@ -6,7 +6,7 @@ import { CiPhone } from "react-icons/ci";
 
 const Home = () => {
   return (
-    <section className="w-[100vw] flex items-center justify-center">
+    <section className="w-[100vw] flex items-center justify-center" id="home">
       <div className="home-section">
         <div className="texts">
           <h1 className="font-bold text-4xl">
