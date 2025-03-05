@@ -1,3 +1,7 @@
+* {
+  overflow-x: hidden;
+}
+
 .menu {
   display: flex;
   flex-flow: column nowrap;
@@ -13,7 +17,8 @@
 .menu-preview {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px;
 }
 
 .menu-way {
@@ -23,4 +28,27 @@
 .more {
   padding: 10px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    margin-top: 100px;
+  }
+
+  .menu h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .menu-preview {
+    gap: 40px;
+  }
+
+  .menu-way {
+    margin-top: 0;
+  }
+
+  .more {
+    display: none;
+  }
 }

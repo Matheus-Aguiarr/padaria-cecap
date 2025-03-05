@@ -15,6 +15,7 @@
 .home-section h1 {
   width: 100%;
   text-align: center;
+  overflow-y: hidden;
 }
 
 .home-section img {

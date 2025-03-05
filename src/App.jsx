@@ -13,16 +13,16 @@ function App() {
     navigate("/menu");
   }
   return (
-    <>
+    <div className="w-[100vw]">
       <Header />
       {/* Home comeca aqui */}
       <Home />
       {/* Cardapio comeca aqui */}
       <section id="menu" className="menu">
-        <h2 className="text-center font-bold text-3xl">
+        <h2 className="text-center font-bold text-3xl overflow-y-hidden">
           Nosso <span className="text-[#126091]">Cardápio</span>
         </h2>
-        <div className="menu-preview flex gap-8">
+        <div className="menu-preview flex  gap-8">
           <Itens nome="Pão Francês fresquinho" imagem={imgHome} />
           <Itens nome="Cafezin fresquin" imagem={imgHome} />
         </div>
@@ -33,7 +33,7 @@ function App() {
           </a>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
