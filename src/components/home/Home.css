@@ -19,9 +19,8 @@
 }
 
 .home-section img {
-  /* border-bottom: 3px dashed var(--main-color);
-  border-right: 3px dashed var(--main-color); */
-  box-shadow: -1px 1px 15px 2px var(--color-01);
+  border-bottom: 3px dashed var(--main-color);
+  border-right: 3px dashed var(--main-color);
 }
 
 .whatsapp-link:hover {

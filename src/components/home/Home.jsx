@@ -19,7 +19,7 @@ const Home = () => {
             pão da região.
           </p>
           <div className="links flex justify-center mt-10 gap-8">
-            <a href="">
+            <a href="https://wa.me/5511963398711?text=Olá, quero mais informações sobre a Panificadora Parque Cecap">
               <FaWhatsapp
                 size={40}
                 className="text-[#113891] whatsapp-link duration-500"
@@ -27,7 +27,7 @@ const Home = () => {
             </a>
             <a
               href=""
-              className="text-[#113891] bg-[#c8eaff] font-semibold rounded-md flex items-center border-2 border-[#113891] duration-500 hover:bg-[#113891] hover:text-[#c8eaff] px-4 py-2  shadow-[#113891] hover:shadow-lg"
+              className="text-[#113891] bg-[#c8eaff] font-semibold rounded-md flex items-center border-2 border-[#113891] duration-500 hover:bg-[#113891] hover:text-[#c8eaff] px-4 py-2 "
             >
               <CiPhone size={40} /> +55 (11) 99999-9999
             </a>
