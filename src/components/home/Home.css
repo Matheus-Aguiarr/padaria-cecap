@@ -27,6 +27,10 @@
   color: var(--color-02);
 }
 
+.links {
+  margin-top: 15px;
+}
+
 @media (min-width: 768px) {
   .home-section {
     display: flex;
@@ -37,7 +41,7 @@
   .texts {
     width: 40%;
     h1 {
-      font-size: 3.5rem;
+      font-size: 3rem;
       width: 100%;
       text-align: left;
     }

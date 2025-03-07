@@ -30,9 +30,6 @@ const Header = () => {
             <a href="#menu">Cardápio</a>
           </li>
           <li className="nav-item">
-            <a href="#feedback">Avaliações</a>
-          </li>
-          <li className="nav-item">
             <a href="#contact">Contato</a>
           </li>
           <li className="nav-item">
