@@ -7,6 +7,7 @@ import Itens from "./components/Itens/Itens.jsx";
 import Feedback from "./components/Feedback/Feedback.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 
+
 function App() {
   const navigate = useNavigate();
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="w-[100vw] h-[100vh] bg-[#c8eaff]">
       <Header />
-      {/* Home comeca aqui */}
+      {/* Home comeca aqui mudança de teste*/}
       <Home />
       {/* Cardapio comeca aqui */}
       <section id="menu" className="menu">
@@ -37,6 +38,7 @@ function App() {
       {/* Feedback comeca aqui */}
       {/* CONTACT */}
       <Contact />
+      {/* MUDANÇA DE TESTE */}
     </div>
   );
 }
