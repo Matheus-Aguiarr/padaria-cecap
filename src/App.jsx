@@ -3,7 +3,6 @@ import "./index.css";
 import "./App.css";
 import Header from "./components/Header/Header.jsx";
 import Home from "./components/home/Home.jsx";
-import Itens from "./components/Itens/Itens.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 
 
