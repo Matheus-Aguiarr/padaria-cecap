@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="w-[100vw] h-[100vh] bg-[#c8eaff]">
       <Header />
-      {/* Home comeca aqui mudança de teste*/}
+      {/* Home comeca aqui */}
       <Home />
       {/* Cardapio comeca aqui */}
       <section id="menu" className="menu">
