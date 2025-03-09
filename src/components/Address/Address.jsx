@@ -10,7 +10,7 @@ const Address = () => {
             allowfullscreen="" 
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade"
-            className='w-[300px] h-[300px] border-0 rounded-lg'
+            className='w-[300px] h-[300px] border-0 rounded-xl'
             ></iframe>
             </div>
         </section>

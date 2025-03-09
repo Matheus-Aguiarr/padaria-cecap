@@ -25,8 +25,8 @@ function App() {
           Nosso <span className="text-[#126091]">Cardápio</span>
         </h2>
 
-        <div className="menu-way overflow-y-hidden" onClick={onSeeMenuClick}>
-          <a className="more bg-[#126091] text-white rounded-lg text-center hover:bg-white hover:text-[#126091] hover:border-[#126091] border-2 border-[#126091] duration-500 hover:shadow-lg shadow-[#126091] px-4 py-2 text-[20px]">
+        <div className="menu-way overflow-y-hidden h-[80px]" onClick={onSeeMenuClick}>
+          <a className="more bg-[#113891] text-white rounded-full text-center hover:bg-[#c8eaff] hover:text-[#113891] hover:border-[#126091] font-bold duration-500 text-[20px]">
             Confira o <span className="">Cardápio Completo</span>
           </a>
         </div>
