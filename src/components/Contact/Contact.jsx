@@ -16,24 +16,27 @@ const Contact = () => {
           name="name"
           required
           placeholder="Digite seu nome"
-          className="bg-[#126091] rounded-md text-center"
+          className="bg-[#126091] rounded-xl text-left"
         />
         <input
           type="email"
           name="email"
           required
           placeholder="Digite seu email"
-          className="bg-[#126091] rounded-md text-center"
+          className="bg-[#126091] rounded-xl text-left"
         />
         <textarea
           name="message"
           placeholder="Digite sua mensagem"
           id=""
           className="h-28
-          bg-[#126091] rounded-md text-center"
+          bg-[#126091] rounded-xl text-left"
         ></textarea>
-        <button type="submit" className="rounded-md">
-          Send
+        <button
+          type="submit"
+          className="rounded-full bg-[#113891] text-white px-4 py-2"
+        >
+          Enviar
         </button>
       </form>
     </div>

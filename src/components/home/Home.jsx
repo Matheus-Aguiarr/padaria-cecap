@@ -9,7 +9,7 @@ const Home = () => {
     <section className="w-[100vw] flex items-center justify-center" id="home">
       <div className="home-section">
         <div className="texts">
-          <h1 className="font-bold text-3xl">
+          <h1 className="font-bold text-5xl">
             Pão quentinho é na{" "}
             <span className="text-[#126091]">Panificadora Cecap</span>
           </h1>
