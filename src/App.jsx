@@ -38,7 +38,6 @@ function App() {
       {/* Feedback comeca aqui */}
       {/* CONTACT */}
       <Contact />
-      {/* MUDANÇA DE TESTE */}
     </div>
   );
 }
