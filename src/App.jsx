@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./index.css";
 import "./App.css";
-import Header from "./components/Header/Header.jsx";
+import Header from "./components/header/Header.jsx";
 import Home from "./components/home/Home.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 
