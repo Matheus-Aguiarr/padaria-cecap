@@ -1,0 +1,48 @@
+* {
+    overflow-x: hidden;
+  }
+  
+  .menu {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .menu h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .menu-way {
+    margin-top: 30px;
+    padding: 15px;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  .more {
+    padding: 12px;
+    
+  }
+  
+  .more:hover {
+    box-shadow: 0 0 0.3rem var(--color-01);
+  }
+  
+  @media (min-width: 768px) {
+    .menu {
+      margin-top: 100px;
+    }
+  
+    .menu h2 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    .menu-preview {
+      gap: 40px;
+    }
+  }
+  
