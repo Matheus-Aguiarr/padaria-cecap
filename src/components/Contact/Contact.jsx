@@ -32,10 +32,7 @@ const Contact = () => {
           className="h-28
           bg-[#126091] rounded-xl text-left"
         ></textarea>
-        <button
-          type="submit"
-          className="rounded-full bg-[#113891] text-white px-4 py-2"
-        >
+        <button type="submit" className="rounded-full bg-[#113891] text-white">
           Enviar
         </button>
       </form>

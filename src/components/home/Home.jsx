@@ -9,7 +9,7 @@ const Home = () => {
     <section className="w-[100vw] flex items-center justify-center" id="home">
       <div className="home-section">
         <div className="texts">
-          <h1 className="font-bold text-5xl">
+          <h1 className="font-bold text-4xl">
             Pão quentinho é na{" "}
             <span className="text-[#126091]">Panificadora Cecap</span>
           </h1>
@@ -19,7 +19,10 @@ const Home = () => {
             pão da região.
           </p>
           <div className="links flex justify-center mt-10 gap-8">
-            <a href="https://wa.me/5511963398711?text=Olá, quero mais informações sobre a Panificadora Parque Cecap">
+            <a
+              href="https://wa.me/5511963398711?text=Ol%C3%A1%2C%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Panificadora%20Parque%20Cecap"
+              target="_blank"
+            >
               <FaWhatsapp
                 size={40}
                 className="text-[#113891] whatsapp-link duration-500"
