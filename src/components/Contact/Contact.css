@@ -1,5 +1,6 @@
 #contact h2 {
-  margin: 40px 0px;
+  margin: 30px 0px;
+  margin-bottom: 20px;
 }
 
 .form {
@@ -36,7 +37,7 @@
 }
 
 .form button:hover {
-  background-color: var(--color-03);
+  background-color: #f3f3f3;
   color: var(--main-color);
   box-shadow: 0 0 0.3rem var(--color-01);
 }

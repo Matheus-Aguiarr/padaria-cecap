@@ -9,7 +9,7 @@ import Feedback from "./components/Feedback/Feedback.jsx";
 // PROXIMA COISA A FAZER: COLOCAR ICONS NO FORM E ARRUMAR ELE BEM BONITO
 function App() {
   return (
-    <div className="w-[100vw] h-[100vh] bg-[#c8eaff]">
+    <div className="w-[100vw] h-[100vh] bg-[#f3f3f3]">
       <Header />
       <Home />
       <MenuWay />

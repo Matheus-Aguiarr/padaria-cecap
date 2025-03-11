@@ -1,4 +1,6 @@
 import "./Contact.css";
+import { CiUser } from "react-icons/ci";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -18,6 +20,7 @@ const Contact = () => {
           placeholder="Digite seu nome"
           className="bg-[#126091] rounded-xl text-left"
         />
+
         <input
           type="email"
           name="email"
@@ -25,6 +28,7 @@ const Contact = () => {
           placeholder="Digite seu email"
           className="bg-[#126091] rounded-xl text-left"
         />
+
         <textarea
           name="message"
           placeholder="Digite sua mensagem"
