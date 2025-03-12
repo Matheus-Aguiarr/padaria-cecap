@@ -1,5 +1,7 @@
 import "./Feedback.css";
-import userImg from "../../assets/profile-img.jpg";
+import amaroPhoto from "../../assets/amaro-neto.png";
+import calosPhoto from "../../assets/carlos-motta.png";
+import pammelaPhoto from "../../assets/pammela-naiade.png";
 import Testimonials from "../Testimonials/Testimonials";
 
 const Feedback = () => {
@@ -15,22 +17,24 @@ const Feedback = () => {
       <div className="testimonials flex flex-row gap-6 rounded-3xl">
         <Testimonials
           userText={
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum labore praesentium quae, non hic magnam aliquam nihil odit quidem deleniti dolore natus possimus? Delectus ipsam dolorem, ducimus neque commodi veniam?"
+            "Uma das melhores opções de refeições no CECAP. Pratos bem servidos e muito saborosos. O destaque são os bifes a cavalo e a parmegiana, são gigantes e servem facilmente duas pessoas."
           }
-          userImg={userImg}
-          userName={"João Dias"}
-        />
-        <Testimonials
-          userText={"Lorem ipsum dolor, sit amet consectetur adipisicing"}
-          userImg={userImg}
-          userName={"Maria Silva"}
+          userImg={amaroPhoto}
+          userName={"Amaro Neto"}
         />
         <Testimonials
           userText={
-            "lorem ipsum dolor, sit amet consectetur adipsing jamsint chonpend barakit"
+            "A melhor feijoada que já comi, e no café da manhã tem pão de queijo com Nutella. Tudo muito gostoso!"
           }
-          userImg={userImg}
-          userName={"José Carlos"}
+          userImg={pammelaPhoto}
+          userName={"Pammela Náiade"}
+        />
+        <Testimonials
+          userText={
+            "Perfeito para tomar um café e fazer um lanche enquanto espera o seu voo em Guarulhos"
+          }
+          userImg={calosPhoto}
+          userName={"Carlos Motta"}
         />
       </div>
     </section>
