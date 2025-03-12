@@ -1,4 +1,4 @@
-import Header from "../components/Header/Header.jsx";
+import Header from "../components/header/Header.jsx";
 import Itens from "../components/Itens/Itens.jsx";
 import "./Menu.css";
 
@@ -6,11 +6,9 @@ const Menu = () => {
   const lanchesItems = [
     {
       name: "Pao Frances",
-      type: "Lanche",
     },
     {
       name: "Mortadela",
-      type: "Frios",
     },
   ];
   return (
