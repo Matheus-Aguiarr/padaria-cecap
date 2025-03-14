@@ -2,6 +2,11 @@
   overflow-x: hidden;
 }
 
+.menu-preview {
+  padding: 20px;
+  background: linear-gradient(180deg, var(--color-01) 0%, var(--color-02) 100%);
+}
+
 .menu {
   display: flex;
   flex-flow: column nowrap;
@@ -40,6 +45,11 @@
   }
 
   .menu-preview {
-    gap: 40px;
+    flex-direction: row;
+    background: linear-gradient(
+      90deg,
+      var(--color-01) 0%,
+      var(--color-02) 100%
+    );
   }
 }

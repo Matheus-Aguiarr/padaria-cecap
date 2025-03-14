@@ -1,0 +1,16 @@
+.ItemPreview {
+  overflow-y: hidden;
+}
+
+.etiqueta {
+  padding: 6px;
+}
+
+.buy-button {
+  padding: 10px 0px;
+}
+
+.buy-button:hover {
+  box-shadow: 0 0 0.3rem var(--color-01);
+  transition: 0.5s;
+}
