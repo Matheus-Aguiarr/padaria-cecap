@@ -8,7 +8,7 @@ const ItemPreview = ({ name, img }) => {
       className="ItemPreview w-[300px] h-[300px] flex flex-col bg-[white] rounded-xl gap-1 overflow-y-hidden"
       initial={{ opacity: 0, x: -30 }}
       whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
+      transition={{ duration: 1, ease: "easeOut" }}
     >
       <div className="etiqueta bg-[red] w-[fit-content] rounded-tl-xl rounded-br-xl text-white">
         Destaque
