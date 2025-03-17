@@ -6,7 +6,7 @@ import Contact from "./components/Contact/Contact.jsx";
 import Address from "./components/Address/Address.jsx";
 import MenuWay from "./components/MenuWay/MenuWay.jsx";
 import Feedback from "./components/Feedback/Feedback.jsx";
-// PROXIMA COISA A FAZER: COLOCAR ICONS NO FORM E ARRUMAR ELE BEM BONITO
+// blablabla
 function App() {
   return (
     <div className="w-[100vw] h-[100vh] bg-[#f3f3f3]">
