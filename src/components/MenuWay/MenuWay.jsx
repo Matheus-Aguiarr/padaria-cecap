@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 import "./MenuWay.css";
 import ItemPreview from "../ItemPreview/ItemPreview";
 import parmegianaImg from "../../assets/parmegiana.jpg";
+import picadinhoImg from "../../assets/Picadinho-de-carne-a-mineira-freepik.jpg";
+import filefrangoImg from "../../assets/filedefrango.png";
 const MenuWay = () => {
   const navigate = useNavigate();
 
@@ -15,9 +17,9 @@ const MenuWay = () => {
       </h2>
 
       <div className="menu-preview bg-[#126091] rounded-3xl flex flex-col gap-4">
-        <ItemPreview img={parmegianaImg} name="Bife a parmegiana" />
-        <ItemPreview img={parmegianaImg} name="Bife a parmegiana" />
-        <ItemPreview img={parmegianaImg} name="Bife a parmegiana" />
+        <ItemPreview img={parmegianaImg} name="Bife a Parmegiana" />
+        <ItemPreview img={picadinhoImg} name="Picadinho de Carne" />
+        <ItemPreview img={filefrangoImg} name="Filé de Frango" />
       </div>
 
       <div

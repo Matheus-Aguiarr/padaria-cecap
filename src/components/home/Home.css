@@ -54,3 +54,10 @@
     width: 40%;
   }
 }
+
+@media (max-width: 768px) {
+  .home-section {
+    margin-bottom: 200px;
+    margin-top: 200px;
+  }
+}
