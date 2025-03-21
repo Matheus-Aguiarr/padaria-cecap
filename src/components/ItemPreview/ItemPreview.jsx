@@ -21,7 +21,7 @@ const ItemPreview = ({ name, img }) => {
       </div>
 
       <a
-        href=""
+        href={`https://wa.me/5511963398711?text=Ol%C3%A1%2C%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%${name}`}
         className="buy-button bg-[#126091] text-white text-center w-[50%] overflow-y-hidden self-center rounded-xl hover:bg-[white] hover:text-[#126091] "
       >
         Comprar

@@ -9,7 +9,7 @@ const Contact = () => {
         Fale <span className="text-[#126091]">Conosco</span>
       </h2>
       <form
-        action="https://formsubmit.co/your@email.com"
+        action="https://formsubmit.co/panificadoracecap@gmail.com"
         className="flex flex-col items-center form"
         method="POST"
       >
