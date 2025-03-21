@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <a href="#home" className="logo" onClick={onNavClick}>
+        <a href="#home" className="logo" onClick={() => onNavClick("#home")}>
           <img src={logo} alt="" />
         </a>
         <a href="" className="burger-menu" onClick={toggleMenu}>
