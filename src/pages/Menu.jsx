@@ -1,6 +1,6 @@
 import Header from "../components/header/Header.jsx";
 import Itens from "../components/Itens/Itens.jsx";
-import NavMenu from "./components/navMenu.jsx";
+import NavMenu from "./navMenu/navMenu.jsx";
 import cardapio1 from "../assets/imgsCardapio/folhas1.png";
 import cardapio2 from "../assets/imgsCardapio/folhas2.png";
 import cardapio3 from "../assets/imgsCardapio/folhas3.png";
