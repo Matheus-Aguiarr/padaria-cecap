@@ -1,0 +1,20 @@
+.NavMenu {
+  margin-top: 100px;
+}
+
+.NavMenu ul {
+  margin-left: 20px;
+}
+
+.NavMenu ul li {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: var(--color-01);
+  transition: 0.5s;
+}
+
+.NavMenu ul li:hover {
+  letter-spacing: 0.3px;
+  color: var(--main-color);
+}

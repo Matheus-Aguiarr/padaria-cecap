@@ -1,9 +1,9 @@
 import "./Itens.css";
 
-const Itens = ({ name }) => {
+const Itens = ({ name, sessao }) => {
   return (
-    <div className="product">
-      <h4 className="">{name}</h4>
+    <div className="product" id={sessao}>
+      <img src={name} alt="Parte do cardapio" className="img-cardapio" />
     </div>
   );
 };
