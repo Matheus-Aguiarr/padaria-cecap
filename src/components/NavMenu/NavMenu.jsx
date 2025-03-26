@@ -18,7 +18,7 @@ const NavMenu = () => {
             <FaExternalLinkAlt size={10} />
           </li>
           <li>
-            <a href="#sanduiches">Sanduiches</a>
+            <a href="#sanduiches">Sanduíches</a>
             <FaExternalLinkAlt size={10} />
           </li>
           <li>
@@ -26,11 +26,11 @@ const NavMenu = () => {
             <FaExternalLinkAlt size={10} />
           </li>
           <li>
-            <a href="#refeicoes">Refeicoes</a>
+            <a href="#refeicoes">Refeições</a>
             <FaExternalLinkAlt size={10} />
           </li>
           <li>
-            <a href="#porcoes">Porcoes</a>
+            <a href="#porcoes">Porções</a>
             <FaExternalLinkAlt size={10} />
           </li>
           <li>
