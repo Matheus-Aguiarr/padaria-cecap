@@ -29,10 +29,10 @@ const Home = () => {
               />
             </a>
             <a
-              href=""
+              href="tel:+551124087075"
               className="text-[#113891] bg-[#c8eaff] font-semibold rounded-md flex items-center border-2 border-[#113891] duration-500 hover:bg-[#113891] hover:text-[#c8eaff] px-4 py-2 "
             >
-              <CiPhone size={40} /> +55 (11) 99999-9999
+              <CiPhone size={40} /> (11) 2408-7075
             </a>
           </div>
         </div>
